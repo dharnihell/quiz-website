@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Quiz website">
+  <meta name="keywords" content="Adeyinka Daniel">
+  <meta name="author" content="Adeyinka Daniel">
+  <link rel="icon" href="img/favicon.png" type="image/png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans|PT+Sans+Caption|Roboto&display=swap" rel="stylesheet">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.19.1/firebase-app.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <title>Quiz website | Animal Quiz</title>
+
+  <style>
+    .grid {
+
+    }
+  </style>
+
+</head>
+
+<body>
+  
+    <!-- --------------------Quiz Section----------------- -->
+    <div class="grid" id="grid">
+      <div id="quiz">
+        <h1>Animal Quiz</h1>
+        <hr style="margin-bottom: 20px">
+
+        <p id="question"></p>
+
+        <div class="buttons">
+          <button id="btn0"><span id="choice0"></span></button>
+          <button id="btn1"><span id="choice1"></span></button>
+          <button id="btn2"><span id="choice2"></span></button>
+          <button id="btn3"><span id="choice3"></span></button>
+        </div>
+
+        <hr style="margin-top: 50px">
+        <footer>
+          <p id="progress">Question x of y</p>
+        </footer>
+      </div>
+    </div>
+
+  </section>
+
+  <ul>
+    <li>
+      <span>Dark</span>
+      <span>Light</span>
+    </li>
+  </ul>
+
+  <!-- javascript ---->
+  <script src="js/animal/animalapp.js"></script>
+  <script src="js/animal/animal-control.js"></script>
+  <script src="js/animal/animal-question.js"></script>
+  <script src="js/dark.js"></script>
+
+
+
+</body>
+
+</html>
